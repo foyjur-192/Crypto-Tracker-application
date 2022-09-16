@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -23,4 +28,15 @@ a {
     color: white;
     background: black;
   }
+}
+
+
+.shadow{
+  box-shadow: -12px -12px 24px rgba(119, 119, 119, 0.3), 12px 12px 24px #000000;
+}
+
+.background{
+  background-color: #111827;
+  background-position: cover;
+  height: 100vh;
 }
